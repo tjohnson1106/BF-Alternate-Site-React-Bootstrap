@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import React from "react-bootstrap";
+import {} from "react-bootstrap";
 
 class About extends Component {
   state = {};
