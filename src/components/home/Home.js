@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Jumbotron, Grid, Row, Col, Image, Button } from "react-bootstrap";
+import { Jumbotron, Grid, Row, Col, Button, Image } from "react-bootstrap";
 import "./Home.css";
 
 class Home extends Component {
-  state = {};
   render() {
     return (
       <Grid>
@@ -18,7 +17,7 @@ class Home extends Component {
         <Row className="show-grid text-center">
           <Col xs={12} sm={4} className="person-wrapper">
             <Image
-              src="../../images/profile.jpeg"
+              src="https://images.pexels.com/photos/206572/pexels-photo-206572.jpeg?h=350&auto=compress&cs=tinysrgb"
               circle
               className="profile-pic"
             />
@@ -30,7 +29,7 @@ class Home extends Component {
           </Col>
           <Col xs={12} sm={4} className="person-wrapper">
             <Image
-              src="../../images/profile.jpeg"
+              src="https://images.pexels.com/photos/413792/pexels-photo-413792.jpeg?h=350&auto=compress&cs=tinysrgb"
               circle
               className="profile-pic"
             />
@@ -40,9 +39,9 @@ class Home extends Component {
               himself transformed in his bed into a horrible vermin.
             </p>
           </Col>
-          <Col xs={12} sm={4} className="person-wrapper">
+          <Col xs={12} sm={4} className="">
             <Image
-              src="../../images/profile.jpeg"
+              src="https://images.pexels.com/photos/893890/pexels-photo-893890.jpeg?h=350&auto=compress&cs=tinysrgb"
               circle
               className="profile-pic"
             />
