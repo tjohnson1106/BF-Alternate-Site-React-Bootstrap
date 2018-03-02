@@ -7,7 +7,7 @@ class NavBar extends Component {
   state = {};
   render() {
     return (
-      <Navbar default collapseOnSelect>
+      <Navbar default collapseOnSelect fixedTop true>
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">Bracket Factory</Link>
